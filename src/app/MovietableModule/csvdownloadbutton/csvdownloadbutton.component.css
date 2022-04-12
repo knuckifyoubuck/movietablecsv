@@ -1,0 +1,13 @@
+.csvdownloadbutton-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.download-button {
+  margin-right: 2rem;
+}
+
+.headers-selector {
+  padding: 0;
+}

@@ -1,0 +1,30 @@
+.filter-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-right: 2rem;
+  position: sticky;
+}
+
+.filters-header {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.table-wrapper {
+  flex: 1 1 100%;
+  width: 100%;
+}
+
+.movie-table {
+  flex: 1 1 100%;
+  width: 100%;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+  flex: 1 1 100%;
+}
