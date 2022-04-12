@@ -16,7 +16,6 @@ import { RouterTestingModule } from "@angular/router/testing";
 
 import { AppComponent } from './app.component';
 import { MovietableComponent } from './MovietableModule/movietable/movietable.component';
-import { CsvdownloadbuttonComponent } from './MovietableModule/csvdownloadbutton/csvdownloadbutton.component';
 import { MovieService } from "./MovietableModule/movie-services/movie.service";
 
 
@@ -25,7 +24,6 @@ import { MovieService } from "./MovietableModule/movie-services/movie.service";
   declarations: [
     AppComponent,
     MovietableComponent,
-    CsvdownloadbuttonComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,8 +8,6 @@ export class SharingService{
   private dataSource: any;
   private rowCount: any;
   private genres: any;
-  private movieData: any;
-
 
   setDataSource(dataSource: any) {
     this.dataSource = dataSource;
@@ -33,14 +31,6 @@ export class SharingService{
 
   getGenres(): any {
     return this.genres;
-  }
-
-  setMovieData(movieData: any) {
-    this.movieData = movieData;
-  }
-
-  getMovieData(): any {
-    return this.movieData;
   }
 
 }
